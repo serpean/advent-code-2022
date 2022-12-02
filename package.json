@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node day01/main2.js",
+    "start": "nodemon main.js",
+    "start:demo": "nodemon main.js -- file=demo.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
