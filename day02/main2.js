@@ -1,4 +1,4 @@
-const input = process.env.input;
+const { input } = process.env;
 const numbers = input.split('\n');
 let totalPoints = 0;
 console.log(numbers)

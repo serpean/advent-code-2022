@@ -1,5 +1,3 @@
-const fs = require('fs');
-const path = require('path');
 const input = process.env.input;
 const numbers = input.split('\n');
 let totalPoints = 0;

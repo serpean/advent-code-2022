@@ -1,6 +1,4 @@
-const fs = require('fs');
-const path = require('path');
-const input = fs.readFileSync(path.join(__dirname, 'input1.txt'), 'utf8');
+const {input} = process.env;
 const numbers = input.split('\n');
 
 const stack = {}
