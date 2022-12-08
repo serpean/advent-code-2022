@@ -1,4 +1,4 @@
-const {input} = process.env;
+const { input } = process.env;
 const numbers = input.split('\n');
 
 const stack = {}
