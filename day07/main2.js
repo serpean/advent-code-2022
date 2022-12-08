@@ -72,7 +72,6 @@ const totalDiskSize = 70000000;
 const totalCurrentUsage = root.getWeight();
 const totalAvailable = totalDiskSize - totalCurrentUsage;
 const sizes = [];
-// bfs search adding to sizes the dirNode under 100000
 const queue = [root];
 while (queue.length) {
     currentNode = queue.shift();
